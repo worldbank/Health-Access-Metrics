@@ -2,20 +2,56 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Examples
+
+  - caption: Introduction to the Data Lab
     numbered: True
+    chapters: 
+        - file: docs/1-intro-to-data-lab
+        
+  - caption: Analytics
     chapters:
-      - file: notebooks/world-bank-api.ipynb
-      - file: notebooks/world-bank-package.ipynb
-      - file: notebooks/nasa-apod.ipynb
-      - file: notebooks/bibliography.ipynb
+        - file: docs/2-market-access-basics.md
+        - file: docs/Flood disruption and impacts on Health Accessibility.md
+            - sections:
+                - file: notebooks/MWI/HF_Access_flood_MWI_raster.ipynb
+                - file: notebooks/MWI/HF_Access_flood_MWI_vector.ipynb
+                - file: notebooks/PAK/HF_Access_flood_PAK_vector.ipynb
+                - file: notebooks/PAK/HF_Access_flood_PAK_raster.ipynb
+        - file: docs/Parallel computation for large areas.md
+            - sections:
+                - file: notebooks/parallel.sh
+                - file: notebooks/pak_parallel_rtree_opt.py
+
+        - file: docs/Conflicts role on Health Accessibility.md
+            - sections:
+                - file: notebooks/HF_Access_conflicts_Ojoloko.ipynb
+                - file: notebooks/HF_Access_conflicts.ipynb
+        - file: docs/Large-scale Emergency (e.g. COVID-19) on Health Accessibility.md
+            - sections:
+                - file: notebooks/HF_Access_raster_emerg.ipynb         
+        - file: notebooks/bibliography.ipynb
+        
+  - caption: Tutorials
+    chapters:
+        - file: docs/5-tutorials.md
+            - sections:
+                - file: Tutorials/module1_preprocess.ipynb
+                - file: notebooks/module2_accessibility.ipynb
+                - file: notebooks/module3_disruption.ipynb    
+                
   - caption: Additional Resources
     chapters:
-      - url: https://datapartnership.org
-        title: Development Data Partnership
-      - url: https://wbdatalab.org
-        title: World Bank Data Lab
-      - url: https://www.worldbank.org/en/about/unit/unit-dec
-        title: World Bank DEC
-      - url: https://www.worldbank.org/en/research/dime
-        title: World Bank DIME
+      - file: docs/3-add-resources
+  - caption: Acknowledgements
+    chapters:
+      - file: docs/4-team
+
+      # chapters:
+      # - url: https://datapartnership.org
+      #   title: Development Data Partnership
+      # - url: https://wbdatalab.org
+      #   title: World Bank Data Lab
+      # - url: https://www.worldbank.org/en/about/unit/unit-dec
+      #   title: World Bank DEC
+      # - url: https://www.worldbank.org/en/research/dime
+      #   title: World Bank DIME
