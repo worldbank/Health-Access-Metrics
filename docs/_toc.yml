@@ -2,7 +2,6 @@ format: jb-book
 root: README
 
 parts:
-
   - caption: Introduction to the Data Lab
     numbered: True
     chapters: 
