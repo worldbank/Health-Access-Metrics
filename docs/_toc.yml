@@ -11,22 +11,22 @@ parts:
     chapters:
         - file: docs/2-market-access-basics.md
         - file: docs/Flood disruption and impacts on Health Accessibility.md
-            - sections:
-                - file: notebooks/MWI/HF_Access_flood_MWI_raster.ipynb
-                - file: notebooks/MWI/HF_Access_flood_MWI_vector.ipynb
-                - file: notebooks/PAK/HF_Access_flood_PAK_vector.ipynb
-                - file: notebooks/PAK/HF_Access_flood_PAK_raster.ipynb
+          sections:
+            - file: notebooks/MWI/HF_Access_flood_MWI_raster.ipynb
+            - file: notebooks/MWI/HF_Access_flood_MWI_vector.ipynb
+            - file: notebooks/PAK/HF_Access_flood_PAK_vector.ipynb
+            - file: notebooks/PAK/HF_Access_flood_PAK_raster.ipynb
         - file: docs/Parallel computation for large areas.md
-            - sections:
-                - file: notebooks/parallel.sh
-                - file: notebooks/pak_parallel_rtree_opt.py
+          sections:
+            - file: notebooks/parallel.sh
+            - file: notebooks/pak_parallel_rtree_opt.py
         - file: docs/Conflicts role on Health Accessibility.md
-            - sections:
-                - file: notebooks/HF_Access_conflicts_Ojoloko.ipynb
-                - file: notebooks/HF_Access_conflicts.ipynb
+          sections:
+            - file: notebooks/HF_Access_conflicts_Ojoloko.ipynb
+            - file: notebooks/HF_Access_conflicts.ipynb
         - file: docs/Large-scale Emergency (e.g. COVID-19) on Health Accessibility.md
-            - sections:
-                - file: notebooks/HF_Access_raster_emerg.ipynb         
+          sections:
+            - file: notebooks/HF_Access_raster_emerg.ipynb         
         - file: notebooks/bibliography.ipynb
         
   - caption: Tutorials
