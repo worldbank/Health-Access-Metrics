@@ -10,7 +10,7 @@ parts:
   - caption: Analytics
     numbered: True
     chapters:
-      - file: docs/2-market-access-basics.md
+      - file: docs/market-access-basics.md
       - file: docs/Flood disruption and impacts on Health Accessibility.md
         sections:
           - file: notebooks/MWI/HF_Access_flood_MWI_raster.ipynb
@@ -33,7 +33,7 @@ parts:
   - caption: Tutorials
     numbered: True
     chapters:
-      - file: docs/5-tutorials.md
+      - file: docs/Tutorials.md
         sections:
           - file: Tutorials/module1_preprocess.ipynb
           - file: notebooks/module2_accessibility.ipynb
