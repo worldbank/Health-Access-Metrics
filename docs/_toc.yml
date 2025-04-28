@@ -8,6 +8,7 @@ parts:
         - file: docs/1-intro-to-data-lab
         
   - caption: Analytics
+    numbered: True
     chapters:
       - file: docs/2-market-access-basics.md
       - file: docs/Flood disruption and impacts on Health Accessibility.md
@@ -30,6 +31,7 @@ parts:
       - file: notebooks/bibliography.ipynb
         
   - caption: Tutorials
+    numbered: True
     chapters:
       - file: docs/5-tutorials.md
         sections:
