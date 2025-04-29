@@ -5,19 +5,19 @@ parts:
   - caption: Introduction to the Data Lab
     numbered: True
     chapters: 
-        - file: docs/1-intro-to-data-lab
+        - file: docs/intro-to-data-lab
         
-  - caption: Analytics
+  - caption: HEPR Accessibility Analytics
     numbered: True
     chapters:
-      - file: docs/2-market-access-basics.md
-      - file: docs/3-flood-disruption-of-accessibility.md
+      - file: docs/market-access-basics.md
+      - file: docs/flood-disruption-of-accessibility.md
         sections:
-          - file: notebooks/MWI/HF_Access_flood_MWI_raster.ipynb
-          - file: notebooks/MWI/HF_Access_flood_MWI_vector.ipynb
-          - file: notebooks/PAK/HF_Access_flood_PAK_vector.ipynb
-          - file: notebooks/PAK/HF_Access_flood_PAK_raster.ipynb
-      - file: docs/Parallel computation for large areas.md
+          - file: notebooks/HF_Access_flood_MWI_raster.ipynb
+          - file: notebooks/HF_Access_flood_MWI_vector.ipynb
+          - file: notebooks/HF_Access_flood_PAK_vector.ipynb
+          - file: notebooks/HF_Access_flood_PAK_raster.ipynb
+      - file: docs/parallel-computation.md
         sections:
           - file: notebooks/parallel.sh
           - file: notebooks/pak_parallel_rtree_opt.py
@@ -33,19 +33,21 @@ parts:
   - caption: Tutorials
     numbered: True
     chapters:
-      - file: docs/4-tutorials.md
+      - file: docs/tutorials.md
         sections:
-          - file: Tutorials/module1_preprocess.ipynb
-          - file: notebooks/module2_accessibility.ipynb
-          - file: notebooks/module3_disruption.ipynb    
+          - file: notebooks/Tutorials/module1_preprocess.ipynb
+          - file: notebooks/Tutorials/module2_accessibility.ipynb
+          - file: notebooks/Tutorials/module3_disruption.ipynb    
                 
   - caption: Additional Resources
+    numbered: True
     chapters:
-      - file: docs/5-add-resources.md
+      - file: docs/add-resources.md
       
   - caption: Acknowledgements
-    chapters:
-      - file: docs/6-team.md
+    numbered: True
+      chapters:
+      - file: docs/team.md
 
       # chapters:
       # - url: https://datapartnership.org
