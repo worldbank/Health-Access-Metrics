@@ -3,12 +3,12 @@ root: README
 
 parts:
   - caption: Introduction to the Data Lab
-    numbered: True
+    #numbered: True
     chapters: 
         - file: docs/intro-to-data-lab
         
   - caption: HEPR Accessibility Analytics
-    numbered: True
+    #numbered: True
     chapters:
       - file: docs/market-access-basics.md
       - file: docs/flood-disruption-of-accessibility.md
@@ -28,7 +28,7 @@ parts:
       - file: notebooks/bibliography.ipynb
         
   - caption: Tutorials
-    numbered: True
+    #numbered: True
     chapters:
       - file: docs/tutorials.md
         sections:
@@ -37,12 +37,12 @@ parts:
           - file: notebooks/Tutorials/module3_disruption.ipynb    
                 
   - caption: Additional Resources
-    numbered: True
+    #numbered: True
     chapters:
       - file: docs/add-resources.md
       
   - caption: Acknowledgements
-    numbered: True
+    #numbered: True
     chapters:
       - file: docs/team.md
 
