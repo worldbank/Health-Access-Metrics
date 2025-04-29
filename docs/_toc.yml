@@ -43,7 +43,7 @@ parts:
       
   - caption: Acknowledgements
     numbered: True
-      chapters:
+    chapters:
       - file: docs/team.md
 
       # chapters:
