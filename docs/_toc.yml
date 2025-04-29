@@ -7,6 +7,11 @@ parts:
     chapters: 
         - file: docs/intro-to-data-lab
         
+  - caption: User Guide
+    #numbered: True
+    chapters: 
+        - file: docs/user-guide
+        
   - caption: HEPR Accessibility Analytics
     #numbered: True
     chapters:
