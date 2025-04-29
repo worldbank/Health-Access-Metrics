@@ -32,6 +32,9 @@ The repository is organized as follows:
 
 ## Contacts
 
+Matteo Mastropierro (mmastropierro@worldbank.org)
+Dunstan Matekenya (dmatekenya@worldbankgroup.org)
+Katie L. McWilliams (kmcwilliams@worldbankgroup.org)
 
 ## License
 
