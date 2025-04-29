@@ -10,8 +10,8 @@ parts:
   - caption: Analytics
     numbered: True
     chapters:
-      - file: docs/market-access-basics.md
-      - file: docs/Flood disruption and impacts on Health Accessibility.md
+      - file: docs/2-market-access-basics.md
+      - file: docs/3-flood-disruption-of-accessibility.md
         sections:
           - file: notebooks/MWI/HF_Access_flood_MWI_raster.ipynb
           - file: notebooks/MWI/HF_Access_flood_MWI_vector.ipynb
@@ -33,7 +33,7 @@ parts:
   - caption: Tutorials
     numbered: True
     chapters:
-      - file: docs/Tutorials.md
+      - file: docs/4-tutorials.md
         sections:
           - file: Tutorials/module1_preprocess.ipynb
           - file: notebooks/module2_accessibility.ipynb
@@ -41,11 +41,11 @@ parts:
                 
   - caption: Additional Resources
     chapters:
-      - file: docs/3-add-resources
+      - file: docs/5-add-resources.md
       
   - caption: Acknowledgements
     chapters:
-      - file: docs/4-team
+      - file: docs/6-team.md
 
       # chapters:
       # - url: https://datapartnership.org
