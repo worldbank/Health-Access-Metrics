@@ -21,13 +21,10 @@ parts:
         sections:
           - file: notebooks/parallel.sh
           - file: notebooks/pak_parallel_rtree_opt.py
-      - file: docs/Conflicts role on Health Accessibility.md
+      - file: docs/conflicts.md
         sections:
           - file: notebooks/HF_Access_conflicts_Ojoloko.ipynb
-          - file: notebooks/HF_Access_conflicts.ipynb
-      - file: docs/Large-scale Emergency (e.g. COVID-19) on Health Accessibility.md
-        sections:
-          - file: notebooks/HF_Access_raster_emerg.ipynb         
+          - file: notebooks/HF_Access_conflicts.ipynb   
       - file: notebooks/bibliography.ipynb
         
   - caption: Tutorials
