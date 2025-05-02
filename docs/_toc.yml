@@ -6,12 +6,7 @@ parts:
     #numbered: True
     chapters: 
         - file: docs/intro-to-data-lab
-        
-  - caption: User Guide
-    #numbered: True
-    chapters: 
-        - file: docs/user-guide
-        
+
   - caption: HEPR Accessibility Analytics
     #numbered: True
     chapters:
@@ -30,13 +25,14 @@ parts:
         sections:
           - file: notebooks/HF_Access_conflicts_Ojoloko.ipynb
           - file: notebooks/HF_Access_conflicts.ipynb   
-      - file: notebooks/bibliography.bib
+      - file: notebooks/bibliography.ipynb
         
   - caption: Tutorials
     #numbered: True
     chapters:
       - file: docs/tutorials.md
         sections:
+          - file: notebooks/Tutorials/module0_data_standardization.ipynb
           - file: notebooks/Tutorials/module1_preprocess.ipynb
           - file: notebooks/Tutorials/module2_accessibility.ipynb
           - file: notebooks/Tutorials/module3_disruption.ipynb    
