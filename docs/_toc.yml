@@ -2,11 +2,24 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Introduction to the Data Lab
+  - caption: User Guide
     #numbered: True
     chapters: 
-        - file: docs/intro-to-data-lab
-
+        - file: docs/User Guide/1_get_started.md
+        - file: docs/User Guide/2_data_requirements.md
+        - file: docs/User Guide/3_raster_vector_analysis.md
+        - file: docs/User Guide/4_notebook_summary.md
+        
+  - caption: Tutorials
+    #numbered: True
+    chapters:
+      - file: docs/tutorials.md
+        sections:
+          - file: notebooks/Tutorials/module0_data_standardization.ipynb
+          - file: notebooks/Tutorials/module1_preprocess.ipynb
+          - file: notebooks/Tutorials/module2_accessibility.ipynb
+          - file: notebooks/Tutorials/module3_disruption.ipynb    
+                
   - caption: HEPR Accessibility Analytics
     #numbered: True
     chapters:
@@ -27,16 +40,7 @@ parts:
           - file: notebooks/HF_Access_conflicts.ipynb   
       - file: notebooks/bibliography.ipynb
         
-  - caption: Tutorials
-    #numbered: True
-    chapters:
-      - file: docs/tutorials.md
-        sections:
-          - file: notebooks/Tutorials/module0_data_standardization.ipynb
-          - file: notebooks/Tutorials/module1_preprocess.ipynb
-          - file: notebooks/Tutorials/module2_accessibility.ipynb
-          - file: notebooks/Tutorials/module3_disruption.ipynb    
-                
+
   - caption: Additional Resources
     #numbered: True
     chapters:
