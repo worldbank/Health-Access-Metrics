@@ -39,7 +39,7 @@ $ jupyter notebook
 ```
 This will open a Notebook Dashboard in your web browser \
 
-![jupyter_example.png](/docs/images/jupyter_example.PNG)
+![jupyter_example](/docs/images/jupyter_example.png)
 
 Using this dashboard, you'll be able to navigate and open notebook files (.ipynb) in the same way as on your local machine.
 
