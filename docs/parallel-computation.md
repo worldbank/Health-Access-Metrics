@@ -13,7 +13,7 @@ A standard Python code is needed to perform parallel computation, achieved using
 Dask Geopandas is used to import and store as Geopandas DataFrame the roads network shapefile, whereas Multiprocessing is used to parallelize the intersection operation between the road network and the flood hazard map. This operation is performed by splitting the road network in chunks (blocks) composed of a user-defined number of roads (100.000 in the code below) whick are automatically processed in parallel across the available CPUs of the machine. \
 The Python code containing the parallelization is *pak_vector_parallel_rtree_opt.py*, and its content reported below:
 
-```
+```py
 #################### ============================================================ ################################
 ## IMPORT PACKAGES AND LIBRARIES
 
@@ -25,50 +25,31 @@ from pathlib import Path
 # Avoid warnings to pop up
 import warnings
 warnings.filterwarnings('ignore')
-# Visualization tools
-# import folium as flm
-import matplotlib.pyplot as plt
-import matplotlib.colors as colors
-import matplotlib.gridspec as gridspec
+
 from rasterio.plot import plotting_extent
 from rasterio.plot import show
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 import contextily as ctx
-import cartopy
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
-import seaborn as sns
 # Processing 
 import numpy as np
 import geopandas as gpd
 import pandas as pd
-from gadm import GADMDownloader
 
 # Raster
 import rasterio as rio
 from rasterio.features import shapes
 from shapely.geometry import box
 from rasterio.features import geometry_mask
-from rasterstats import zonal_stats
 from shapely.geometry import Polygon, box, Point
 from shapely.geometry import mapping
-import skimage.graph as graph
-from scipy.signal import convolve2d
 
-# Graph
-import pickle
-import networkx as nx
-import osmnx as ox
-
-# for facebook data
-# from pyquadkey2 import quadkey
 # Parallelization
 import multiprocessing
 import dask
 import dask_geopandas as dask_gpd
 import rioxarray as rioxr
-# Define your path to the Repositories
 
+# Define your path to the Repositories
 sys.path.append(join(expanduser("/home/jupyter-wb618081"), 'Repos', 'gostrocks', 'src'))
 sys.path.append(join(expanduser("/home/jupyter-wb618081"), 'Repos', 'GOSTNets_Raster', 'src'))
 sys.path.append(join(expanduser("/home/jupyter-wb618081"), 'Repos', 'GOSTnets'))
@@ -273,10 +254,10 @@ if __name__ == "__main__":
     
 
 ```
-
+## Bash script
 The operation can be computed by running the **parallel.sh** Bash script as below:
 
-```
+```bash
 #!/bin/bash
 
 # Activate your Python virtual environment if needed

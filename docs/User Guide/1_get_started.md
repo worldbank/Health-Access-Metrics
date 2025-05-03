@@ -1,5 +1,5 @@
 
-### 1. How to get started
+## 1. How to get started
 
 The PAM-Toolkit is built using the Python programming language (see [Python documentation](https://docs.python.org/3/) for general info and how to get started) and is stored in a GitHub repository. \
 Additionally, the PAM-Toolkit analyses are presented here using [Jupyter notebooks](https://jupyter.org), interactive computational documents used for configuring and streamlining data-science workflows and sharing codes.
@@ -8,14 +8,14 @@ GitHub is a platform that enables users to develop, store, manage their code, It
 In this case, please refer to the [GitHub documentation](https://docs.github.com/en) about how to get started. \
 To run the notebooks and start performing the analyses, the following prerequisites are needed and recommended:
 
-- **Conda package manager**
+### Conda package manager
  
 For a structured and tidy organization of the software requirements, the intallation of minicoda (Anaconda is heavier) is recommended. \
-Please follow the following instructions: [ow to install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install). \
-Conda allows to create virtual environments within which it is possible to manage packages and libraries by efficiently handling and resolving dependencies (i.e. packages that are the building blocks of other packages) in Linux, Windows and MacOS. Given that the PAM-Toolkit has been tested using a Linux platform, a Linux environment is recommended to exploit the full potential of the package (Windows users can install a Linux Subsystem following [here](https://learn.microsoft.com/en-us/windows/wsl/install)). However, 95% of the functionalities are also working on Windows platforms, therefore a Windows conda also serves its purpose: \
+Please follow the following instructions: [How to install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install). \
+Conda allows to create virtual environments within which it is possible to manage packages and libraries by efficiently handling and resolving dependencies (i.e. packages that are the building blocks of other packages) in Linux, Windows and MacOS. Given that the PAM-Toolkit has been tested using a Linux platform, a Linux environment is recommended to exploit the full potential of the package (Windows users can install a Linux Subsystem following [here](https://learn.microsoft.com/en-us/windows/wsl/install)). However, 95% of the functionalities are also working on Windows platforms, therefore a Windows conda also serves its purpose.\
 The following conda virtual environment is provided for both Linux and Windows users: 
 ```
-*environment.yml*
+environment.yml
 ```
 After the conda installation, create an environment from the *environment.yml* file by running on the computer [terminal](https://docs.jupyter.org/en/latest/glossary.html#term-command-line):
 ```
@@ -31,7 +31,7 @@ $ conda list
 ```
 Please refer to the [Conda User Guide](https://docs.conda.io/projects/conda/en/stable/user-guide/index.html) for a comprehensive list of commands.
 
-- **Jupyter IDE**
+### Jupyter IDE
  
 Before running Jupyter Notebooks, an interface is needed. Having the *environment.yml* already installed Jupyter, the easiest way to start a Jupyter server is typing in the terminal:
 ```
@@ -43,7 +43,7 @@ This will open a Notebook Dashboard in your web browser \
 
 Using this dashboard, you'll be able to navigate and open notebook files (.ipynb) in the same way as on your local machine.
 
-- **Additional libraries**
+### Additional libraries
  
 Some libraries used in this project are not yet available on conda, therefore it is needed to manually download and store them within a "**repos**" folder inside your local "**Health-Access-Metrics**" repository. \
 The following have to be downloaded from their GitHub repositories:
