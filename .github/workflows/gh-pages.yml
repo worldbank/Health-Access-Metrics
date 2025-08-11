@@ -28,7 +28,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 #       if: github.ref == 'refs/heads/main' && job.status == 'success' # This prevents the artifact from being uploaded unless you're pushing to main
-        if: job.status == 'success'    # This sllows the deployment from any branch 
+        if: job.status == 'success'    # This allows the deployment from any branch 
         with:
           path: "_build/html"
 
