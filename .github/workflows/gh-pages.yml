@@ -2,8 +2,12 @@ name: Publish to GitHub Pages
 on:
   push:
     branches:
+      - Matteo_branch
+  pull_request:
+    branches:
       - main
-
+  workflow_dispatch:
+  
 jobs:
   build-book:
     runs-on: ubuntu-latest
@@ -18,12 +22,13 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
-      - name: Build Juputer Book Documentation
+      - name: Build Jupyter Book Documentation
         run: |
           jupyter-book build . --config docs/_config.yml --toc docs/_toc.yml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        if: github.ref == 'refs/heads/main' && job.status == 'success'
+#       if: github.ref == 'refs/heads/main' && job.status == 'success' # This prevents the artifact from being uploaded unless you're pushing to main
+        if: job.status == 'success'    # This allows the deployment from any branch 
         with:
           path: "_build/html"
 

@@ -9,8 +9,16 @@ In most GIS systems, the outputs of accessibility measurement is often a quantiy
 1. **The Euclidean Distance (ED)** This is the simplest method which provides straight-line distance between two points on a plane or  distance "as the crow flies,".
 2. **Travel time**. This considered more comprehensive because it takes into account available infrastracture (e.g., roads) from the clients/population to the health services.
 
-###  Required datasets for physcal access measurement
-In order to do any PAHM analysis, the following datasets are required
+###  Required datasets for physical access measurement
+In order to do any PAHM analysis, the following datasets are required:
+
+- **Health Facilities**
+- **Population**
+- **Travel Friction Surface**
+- **Road Network**
+- **Flood Map**
+
+Please refer to the [Data requirements](/docs/User Guide/2_data_requirements.md) document of the User Guide.
 
 ```{table}
 :name: foundational_datasets

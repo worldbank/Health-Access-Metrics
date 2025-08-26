@@ -2,29 +2,61 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Examples
-    numbered: True
+  - caption: User Guide
+    #numbered: True
+    chapters: 
+        - file: docs/User Guide/1_get_started.md
+        - file: docs/User Guide/2_data_requirements.md
+        - file: docs/User Guide/3_raster_vector_analysis.md
+        - file: docs/User Guide/4_notebook_summary.md
+        
+  - caption: Tutorials
+    #numbered: True
     chapters:
-      - file: notebooks/world-bank-api.ipynb
-      - file: notebooks/world-bank-package.ipynb
-      - file: notebooks/nasa-apod.ipynb
+      - file: docs/tutorials.md
+        sections:
+          - file: notebooks/Tutorials/module0_data_standardization.ipynb
+          - file: notebooks/Tutorials/module1_preprocess.ipynb
+          - file: notebooks/Tutorials/module2_accessibility.ipynb
+          - file: notebooks/Tutorials/module3_disruption.ipynb    
+                
+  - caption: HEPR Accessibility Analytics
+    #numbered: True
+    chapters:
+      - file: docs/market-access-basics.md
+      - file: docs/flood-disruption-of-accessibility.md
+        sections:
+          - file: notebooks/HF_Access_flood_MWI_raster.ipynb
+          - file: notebooks/HF_Access_flood_MWI_vector.ipynb
+          - file: notebooks/HF_Access_flood_PAK_vector.ipynb
+          - file: notebooks/HF_Access_flood_PAK_raster.ipynb
+      - file: docs/parallel-computation.md
+        sections:
+          - file: notebooks/parallel.sh
+          - file: notebooks/pak_parallel_rtree_opt.py
+      - file: docs/conflicts.md
+        sections:
+          - file: notebooks/HF_Access_conflicts_Ojoloko.ipynb
+          - file: notebooks/HF_Access_conflicts.ipynb   
       - file: notebooks/bibliography.ipynb
-  - caption: Recommended Workflows
-    chapters:
-      - file: docs/folders-and-naming
-      - file: docs/git-workflows
-      - file: docs/notebooks-workflows
-      - file: docs/presenting-results
-  - caption: Gallery
-    chapters:
-      - file: docs/gallery
+        
+
   - caption: Additional Resources
+    #numbered: True
     chapters:
-      - url: https://datapartnership.org
-        title: Development Data Partnership
-      - url: https://wbdatalab.org
-        title: World Bank Data Lab
-      - url: https://www.worldbank.org/en/about/unit/unit-dec
-        title: World Bank DEC
-      - url: https://www.worldbank.org/en/research/dime
-        title: World Bank DIME
+      - file: docs/add-resources.md
+      
+  - caption: Acknowledgements
+    #numbered: True
+    chapters:
+      - file: docs/team.md
+
+      # chapters:
+      # - url: https://datapartnership.org
+      #   title: Development Data Partnership
+      # - url: https://wbdatalab.org
+      #   title: World Bank Data Lab
+      # - url: https://www.worldbank.org/en/about/unit/unit-dec
+      #   title: World Bank DEC
+      # - url: https://www.worldbank.org/en/research/dime
+      #   title: World Bank DIME

@@ -1,12 +1,12 @@
 # Book settings
-title:
-author: Development Data Group
+title: Health Accessibility Metrics in Emergency Scenarios
+author: World Bank - GOST & Data Lab
 logo: docs/images/logo.png
 only_build_toc_files: false
 
 repository:
-  url: https://github.com/worldbank/template
-  branch: main
+  url: https://github.com/worldbank/Health-Access-Metrics
+  branch: Matteo_branch
 
 #######################################################################################
 # HTML-specific settings
@@ -16,7 +16,7 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://worldbank.github.io/template
+  baseurl: https://worldbank.github.io/Health-Access-Metrics/
   extra_footer: |
     <div>
      Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
@@ -42,3 +42,4 @@ sphinx:
   config:
     html_show_copyright: false
     html_last_updated_fmt: "%b %d, %Y"
+    bibtex_reference_style: author_year
