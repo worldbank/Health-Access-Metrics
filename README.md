@@ -7,8 +7,8 @@ In particular, this repository provides tools (Python packages, sample code), fr
 
 The <span style="color:#3EACAD">project </span> has three key components as follows:
 
-1. **Physical accessiblity measurment toolkit (PAM-Toolkit)**. A Python which builds on existing Python pakages (e.g., GOSTnets) to provide functionality to generate accessibility metrics.
-2. **Guidance note on data collection and preparation for physical accessibility measurement**. This provides documentation of best practices for collection, prepation and compiliation of data for accessibility analysis. 
+1. **Physical accessibility measurement toolkit (PAM-Toolkit)**. A Python notebook which builds on existing Python pakages (e.g., GOSTnets) to provide functionality to generate accessibility metrics.
+2. **Guidance note on data collection and preparation for physical accessibility measurement**. This provides documentation of best practices for collection, preparation and compilation of data for accessibility analysis. 
 3. **eLearning course**. An eLearning course introducing the concepts of Travel Time and Market Access.
 
 1. Read the documentation about this project on the [project GitHub page]()
