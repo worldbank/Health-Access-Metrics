@@ -2,7 +2,7 @@
 
 This project is being funded by the [Health Emergencies Preparedness and Response Program(HEPR)](https://www.healthemergencies.org). \
 The goal of this project is to provide documentation to enable measurement of physical accessibility to health care across the globe. \
-In particular, this repository provides tools (Python packages, sample code), frameworks and guidelines and best practices for measuring physical access to health carem and disruption caused by emergency events, particularly floods.
+In particular, this repository provides tools (Python packages, sample code), frameworks and guidelines and best practices for measuring physical access to health care and disruption caused by emergency events, particularly floods.
 
 
 The <span style="color:#3EACAD">project </span> has three key components as follows:
@@ -37,4 +37,4 @@ Matteo Mastropierro (mmastropierro@worldbank.org) \
 
 ## License
 
-The <span style="color:#3EACAD">template</span> is licensed under the [**World Bank Master Community License Agreement**](LICENSE). Remember to replace the [license](LICENSE.md) if necessary. If open source, [choose an open source license](https://choosealicense.com).
+The <span style="color:#3EACAD">template</span> is licensed under the [**World Bank Master Community License Agreement**](LICENSE). 
