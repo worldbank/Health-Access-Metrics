@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - Matteo_branch
+      - main
   pull_request:
     branches:
       - main
