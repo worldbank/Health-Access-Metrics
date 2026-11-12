@@ -1,14 +1,16 @@
 # Physical Accessibility to Health Measurement
 
-This project is being funded by the [Health Emergencies Preparedness and Response Program(HEPR)](https://www.healthemergencies.org). \
-The goal of this project is to provide documentation to enable measurement of physical accessibility to health care across the globe. \
+This project is being funded by the [Health Emergencies Preparedness and Response Program(HEPR)](https://www.healthemergencies.org).
+
+The goal of this project is to provide documentation to enable measurement of physical accessibility to health care across the globe.
 In particular, this repository provides tools (Python packages, sample code), frameworks and guidelines and best practices for measuring physical access to health care and disruption caused by emergency events, particularly floods.
 
 
 The <span style="color:#3EACAD">project </span> has two key components as follows:
 
 1. **Physical accessibility measurement toolkit (PAM-Toolkit)**. A Python notebook which builds on existing Python packages (e.g., GOSTnets) to provide functionality to generate accessibility metrics.
-2. **eLearning course**. An eLearning course introducing the concepts of Travel Time and Market Access.
+2. **eLearning course**. An [eLearning course](https://wbg.edcast.com/insights/ECL-452547cc-7c5e-48f1-bec4-d633a8497e9c) introducing the concepts of Travel Time and Market Access
+
 
 1. Read the documentation about this project on the [project GitHub page]()
 2. Download and use the [physical accessiblity measurment toolkit (PAM-Toolkit)]()
@@ -32,7 +34,7 @@ The repository is organized as follows:
 
 ## Contacts
 Katie L. McWilliams (kmcwilliams@worldbankgroup.org) 
-Matteo Mastropierro (mmastropierro@worldbank.org) \
+Benjamin P. Stewart (bstewart@worldbankgroup.org)
 
 ## License
 
