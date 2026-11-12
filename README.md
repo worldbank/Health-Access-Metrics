@@ -5,11 +5,10 @@ The goal of this project is to provide documentation to enable measurement of ph
 In particular, this repository provides tools (Python packages, sample code), frameworks and guidelines and best practices for measuring physical access to health care and disruption caused by emergency events, particularly floods.
 
 
-The <span style="color:#3EACAD">project </span> has three key components as follows:
+The <span style="color:#3EACAD">project </span> has two key components as follows:
 
 1. **Physical accessibility measurement toolkit (PAM-Toolkit)**. A Python notebook which builds on existing Python packages (e.g., GOSTnets) to provide functionality to generate accessibility metrics.
-2. **Guidance note on data collection and preparation for physical accessibility measurement**. This provides documentation of best practices for collection, preparation and compilation of data for accessibility analysis. 
-3. **eLearning course**. An eLearning course introducing the concepts of Travel Time and Market Access.
+2. **eLearning course**. An eLearning course introducing the concepts of Travel Time and Market Access.
 
 1. Read the documentation about this project on the [project GitHub page]()
 2. Download and use the [physical accessiblity measurment toolkit (PAM-Toolkit)]()
